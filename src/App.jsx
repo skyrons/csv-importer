@@ -58,6 +58,41 @@ export default function App() {
             materialType: [],
             percentage: []
           }
+        },
+        material6: {
+          header: String,
+          data: {
+            materialType: [],
+            percentage: []
+          }
+        },
+        material7: {
+          header: String,
+          data: {
+            materialType: [],
+            percentage: []
+          }
+        },
+        material8: {
+          header: String,
+          data: {
+            materialType: [],
+            percentage: []
+          }
+        },
+        material9: {
+          header: String,
+          data: {
+            materialType: [],
+            percentage: []
+          }
+        },
+        material10: {
+          header: String,
+          data: {
+            materialType: [],
+            percentage: []
+          }
         }
       }
       
@@ -88,7 +123,23 @@ export default function App() {
           result.product.material4.data.percentage[j] = content[j][10],
           result.product.material5.header = header[11],
           result.product.material5.data.materialType[j] = content[j][11],
-          result.product.material5.data.percentage[j] = content[j][12]
+          result.product.material5.data.percentage[j] = content[j][12],
+          result.product.material6.header = header[12],
+          result.product.material6.data.materialType[j] = content[j][12],
+          result.product.material6.data.percentage[j] = content[j][13],
+          result.product.material7.header = header[13],
+          result.product.material7.data.materialType[j] = content[j][13],
+          result.product.material7.data.percentage[j] = content[j][14],
+          result.product.material8.header = header[15],
+          result.product.material8.data.materialType[j] = content[j][15],
+          result.product.material8.data.percentage[j] = content[j][16],
+          result.product.material9.header = header[19],
+          result.product.material9.data.materialType[j] = content[j][19],
+          result.product.material9.data.percentage[j] = content[j][20],
+          result.product.material10.header = header[21],
+          result.product.material10.data.materialType[j] = content[j][21],
+          result.product.material10.data.percentage[j] = content[j][22]
+
         ]
       }
     }
@@ -104,24 +155,44 @@ export default function App() {
         Construction: result.product.construction,
         Materials: {
           Material_1: {
-          Header: result.product.material1.header,
-          Material: result.product.material1.data
+            Header: result.product.material1.header,
+            Material: result.product.material1.data
           },
           Material_2: {
-          Header: result.product.material2.header,
-          Material: result.product.material2.data
+            Header: result.product.material2.header,
+            Material: result.product.material2.data
           },
           Material_3: {
-          Header: result.product.material3.header,
-          Material: result.product.material3.data
+            Header: result.product.material3.header,
+            Material: result.product.material3.data
           },
           Material_4: {
-          Header: result.product.material4.header,
-          Material: result.product.material4.data
+            Header: result.product.material4.header,
+            Material: result.product.material4.data
           },
           Material_5: {
-          Header: result.product.material5.header,
-          Material: result.product.material5.data
+            Header: result.product.material5.header,
+            Material: result.product.material5.data
+          },
+          Material_6: {
+            Header: result.product.material6.header,
+            Material: result.product.material6.data
+          },
+          Material_7: {
+            Header: result.product.material7.header,
+            Material: result.product.material7.data
+          },
+          Material_8: {
+            Header: result.product.material8.header,
+            Material: result.product.material8.data
+          },
+          Material_9: {
+            Header: result.product.material9.header,
+            Material: result.product.material9.data
+          },
+          Material_10: {
+            Header: result.product.material10.header,
+            Material: result.product.material10.data
           }
         } 
           
