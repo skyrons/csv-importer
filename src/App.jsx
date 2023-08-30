@@ -8,7 +8,6 @@ import icon from './assets/file-csv.svg'
 
 
 export default function App() {
-
   const pasrseCSV = (text) => {
     
     const result = {
@@ -128,7 +127,9 @@ export default function App() {
           
       }
     })
-  
+
+    alert('The file has been uploaded to the database');
+
     return result;
   
   };
@@ -156,7 +157,8 @@ export default function App() {
           <button 
             className='button' 
             onClick={ () => 
-            pasrseCSV(file) }>
+            pasrseCSV(file)}
+            >
             <img src={icon} alt="" 
           />
             Send
